@@ -162,7 +162,7 @@ h1 {
   width: 100%;
 }
 
-.home-hero h1 span {
+.home-hero h1 > div {
   display: block;
   grid-column: text-start;
   margin: 0;
@@ -171,16 +171,20 @@ h1 {
   text-indent: 0;
 }
 
-.home-hero h1 span:first-child {
+.home-hero h1 span {
+  display: block;
+}
+
+.hero-name-ko-box {
+  transform: translateX(-24px);
+}
+
+.hero-name-ko-box span {
   font-size: clamp(64px, 10vw, 128px);
   line-height: 0.92;
 }
 
-.hero-name-ko {
-  transform: translateX(-12px);
-}
-
-.home-hero h1 span:last-child {
+.hero-name-en-box span {
   font-size: clamp(30px, 4vw, 52px);
   line-height: 1;
 }

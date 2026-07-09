@@ -24,8 +24,12 @@ export default function Home() {
       <section className="home-hero">
         <div className="home-hero-copy">
           <h1>
-            <span className="hero-name-ko">김서영</span>
-            <span>Kim Seoyoung</span>
+            <div className="hero-name-ko-box">
+              <span>김서영</span>
+            </div>
+            <div className="hero-name-en-box">
+              <span>Kim Seoyoung</span>
+            </div>
           </h1>
           <p className="role">아이패밀리SC 기획2파트 기획 및 인플루언서 마케터 지원</p>
           <p className="lead">
