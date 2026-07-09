@@ -174,7 +174,10 @@ h1 {
 .home-hero h1 span:first-child {
   font-size: clamp(64px, 10vw, 128px);
   line-height: 0.92;
-  transform: translateX(-0.32em);
+}
+
+.hero-name-ko {
+  transform: translateX(-12px);
 }
 
 .home-hero h1 span:last-child {
