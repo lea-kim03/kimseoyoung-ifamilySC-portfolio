@@ -19,7 +19,12 @@ export default function MedihealCareer() {
             <p className="muted">항목을 선택하면 상세 내용을 확인할 수 있습니다.</p>
           </div>
         </div>
-        <Accordion items={medihealCareerItems} defaultOpenFirst={false} />
+        <Accordion
+          items={medihealCareerItems}
+          defaultOpenFirst={false}
+          expandLabel="눌러서 보기"
+          collapseLabel="접기"
+        />
       </section>
     </main>
   );

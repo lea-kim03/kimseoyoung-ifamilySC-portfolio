@@ -1,6 +1,11 @@
 import { useState } from "react";
 
-export default function Accordion({ items, defaultOpenFirst = true }) {
+export default function Accordion({
+  items,
+  defaultOpenFirst = true,
+  expandLabel = "+",
+  collapseLabel = "-"
+}) {
   const [openItems, setOpenItems] = useState(() => new Set(defaultOpenFirst ? [items[0]?.id] : []));
 
   const toggleItem = (id) => {
@@ -33,7 +38,10 @@ export default function Accordion({ items, defaultOpenFirst = true }) {
               onClick={() => toggleItem(item.id)}
             >
               <span>{item.title}</span>
-              <span className="accordion-symbol">{isOpen ? "-" : "+"}</span>
+              <span className="accordion-cue">
+                <span className="accordion-label">{isOpen ? "접기" : "눌러서 보기"}</span>
+              <span className="accordion-symbol">{isOpen ? collapseLabel : expandLabel}</span>
+              </span>
             </button>
             <div className="accordion-panel">
               <div className="prose">{item.content}</div>

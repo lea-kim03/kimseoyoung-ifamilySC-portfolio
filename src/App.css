@@ -567,9 +567,28 @@ ul {
   color: #241c19;
 }
 
+.accordion-cue {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.accordion-label {
+  padding: 5px 9px;
+  color: var(--rose);
+  border: 1px solid #dcc9c1;
+  background: #fffdf9;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .accordion-symbol {
   color: var(--rose);
   font-size: 20px;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .accordion-panel {
