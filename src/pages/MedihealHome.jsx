@@ -1,15 +1,17 @@
 import DocumentCard from "../components/DocumentCard.jsx";
 
+const isStandaloneMedihealSite = window.location.pathname.includes("/mediheal");
+
 const documents = [
   {
     title: "경력기술서",
     description: "메디힐 콘텐츠 마케팅 직무와 연결되는 스킨케어, 인플루언서, 시딩, 콘텐츠 기획 경험",
-    to: "/mediheal/career"
+    to: isStandaloneMedihealSite ? "/career" : "/mediheal/career"
   },
   {
     title: "포트폴리오",
     description: "메디힐 지원용 포트폴리오 자료를 정리할 페이지",
-    to: "/mediheal/portfolio"
+    to: isStandaloneMedihealSite ? "/portfolio" : "/mediheal/portfolio"
   }
 ];
 

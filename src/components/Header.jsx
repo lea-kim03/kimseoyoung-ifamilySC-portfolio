@@ -7,7 +7,15 @@ const links = [
   { to: "/portfolio", label: "Portfolio" }
 ];
 
-export default function Header() {
+const medihealLinks = [
+  { to: "/", label: "Mediheal Home" },
+  { to: "/career", label: "Career" },
+  { to: "/portfolio", label: "Portfolio" }
+];
+
+export default function Header({ variant = "default" }) {
+  const navLinks = variant === "mediheal" ? medihealLinks : links;
+
   return (
     <header className="site-header no-print">
       <div className="header-inner">
@@ -15,7 +23,7 @@ export default function Header() {
           Kim Seoyoung
         </NavLink>
         <nav className="main-nav" aria-label="주요 문서">
-          {links.map((link) => (
+          {navLinks.map((link) => (
             <NavLink
               key={link.to}
               to={link.to}

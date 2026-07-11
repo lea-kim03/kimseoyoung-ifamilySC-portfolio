@@ -9,6 +9,21 @@ import MedihealCareer from "./pages/MedihealCareer.jsx";
 import MedihealPortfolio from "./pages/MedihealPortfolio.jsx";
 
 export default function App() {
+  const isMedihealSite = window.location.pathname.includes("/mediheal");
+
+  if (isMedihealSite) {
+    return (
+      <>
+        <Header variant="mediheal" />
+        <Routes>
+          <Route path="/" element={<MedihealHome />} />
+          <Route path="/career" element={<MedihealCareer />} />
+          <Route path="/portfolio" element={<MedihealPortfolio />} />
+        </Routes>
+      </>
+    );
+  }
+
   return (
     <>
       <Header />
