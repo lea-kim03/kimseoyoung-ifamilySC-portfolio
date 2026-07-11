@@ -39,8 +39,7 @@ export default function Accordion({
             >
               <span>{item.title}</span>
               <span className="accordion-cue">
-                <span className="accordion-label">{isOpen ? "접기" : "눌러서 보기"}</span>
-              <span className="accordion-symbol">{isOpen ? collapseLabel : expandLabel}</span>
+                <span className="accordion-symbol">{isOpen ? collapseLabel : expandLabel}</span>
               </span>
             </button>
             <div className="accordion-panel">
