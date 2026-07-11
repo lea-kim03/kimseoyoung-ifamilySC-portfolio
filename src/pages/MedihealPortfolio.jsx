@@ -31,8 +31,10 @@ export default function MedihealPortfolio() {
 
       <section className="portfolio-cover mediheal-portfolio-cover">
         <h1>{medihealPortfolioIntro.title}</h1>
-        {medihealPortfolioIntro.subtitles.map((subtitle) => (
-          <p className="lead" key={subtitle}>{subtitle}</p>
+        {medihealPortfolioIntro.subtitles.map((subtitle, index) => (
+          <p className={`lead ${index === 0 ? "portfolio-position-line" : ""}`} key={subtitle}>
+            {subtitle}
+          </p>
         ))}
         <div className="portfolio-contact-block">
           <strong>{medihealPortfolioIntro.name}</strong>
@@ -99,7 +101,6 @@ export default function MedihealPortfolio() {
                   <ProjectTextBlock title="전략" content={project.strategy} />
                   <ProjectTextBlock title="주요 수행 내용" content={project.actions} list />
                   <ProjectTextBlock title="결과 또는 성과" content={project.results} />
-                  <ProjectTextBlock title="이미지 영역 추천" content={project.recommendations} list />
                   {project.media?.length > 0 && (
                     <div className="portfolio-media-block">
                       <ProjectMedia media={project.media} />

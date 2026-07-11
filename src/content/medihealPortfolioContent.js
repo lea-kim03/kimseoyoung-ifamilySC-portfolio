@@ -53,21 +53,14 @@ export const medihealPortfolioProjects = [
       "글로벌 크리에이터 영상 초안을 검토하고, 외국인 팀원 및 내부 담당자와 영어로 소통하며 제품 메시지와 톤앤무드가 어긋나지 않도록 조율했습니다."
     ],
     results: ["스킨케어 제품의 효능과 사용감을 소비자 피부 고민과 사용 장면에 맞춰 콘텐츠화하는 역량을 쌓았습니다. 메디힐에서도 제품별 효능과 피부 고민 키워드를 연결해, 국내외 소비자가 이해하기 쉬운 콘텐츠를 제작하겠습니다."],
-    recommendations: [
-      "영어 콘텐츠 가이드 일부",
-      "numbuzin 크리에이터 콘텐츠 캡처",
-      "FLASKIN 크리에이터 콘텐츠 캡처",
-      "시장별 메시지 정리표",
-      "영상 초안 피드백 예시"
-    ],
     media: [
       {
-        caption: "numbuzin 크리에이터 콘텐츠 캡처",
+        caption: "필리핀 라이프스타일 유튜버의 콘텐츠 톤에 맞춰, 선에센스와 토너를 여행·일상 속 여름 스킨케어 루틴으로 제안",
         src: "/portfolio/project-07/philippines-lifestyle-youtuber-skincare.jpg",
         href: "https://youtu.be/FrAP2Fb90Go?si=RED6xyEpscLgAv7Q&t=21"
       },
       {
-        caption: "FLASKIN 크리에이터 콘텐츠 캡처",
+        caption: "탄력개선에 초점을 둔 브랜드 컨셉에 맞춰 제품을 데일리 탄력 홈케어 루틴으로 제안하는 영상을 제작",
         src: "/portfolio/project-07/daily-elastic-homecare-routine.jpg",
         href: "https://youtu.be/cP7GvD-ArXg?si=PVe8aCPM-VqbDSvE"
       }
@@ -89,34 +82,27 @@ export const medihealPortfolioProjects = [
       "오늘의 립 협업 영상 조회수 21만 회, 좋아요 5.8천 회",
       "복잡한 제품 USP를 고관여 소비자의 실제 반응과 크리에이터 콘텐츠로 전환해, 신제품 런칭 메시지가 공식 채널, SNS 콘텐츠, 인플루언서 협업 콘텐츠로 이어지도록 만들었습니다."
     ],
-    recommendations: [
-      "프리뷰 행사 포스터",
-      "핑크북 시딩 패키지",
-      "수앤유 협업 영상 캡처",
-      "오늘의 립 협업 영상 캡처",
-      "조회수 성과 캡처"
-    ],
     media: [
       {
-        caption: "프리뷰 행사 포스터",
+        caption: "프리뷰 행사 공식 인스타그램 공지",
         src: "/portfolio/project-01/preview-instagram-notice.png"
       },
       {
-        caption: "핑크북 시딩 패키지",
+        caption: "핑크북 시딩 패키지 이미지",
         src: "/portfolio/project-01/pinkbook-seeding-package.jpeg"
       },
       {
-        caption: "수앤유 협업 영상 캡처",
+        caption: "유튜버 수앤유 롱폼 콘텐츠",
         src: "/portfolio/project-01/sooandyou-longform.png",
         href: "https://youtu.be/eeEhQGEdP_w?si=tcCuPm1SKjbUEJPr"
       },
       {
-        caption: "오늘의 립 협업 영상 캡처",
+        caption: "유튜버 오늘의 립 숏폼 콘텐츠",
         src: "/portfolio/project-01/todays-lip-shortform.png",
         href: "https://youtube.com/shorts/JXrSnedSznA?si=8l1zs350NuSnO4gd"
       },
       {
-        caption: "조회수 성과 캡처",
+        caption: "프리뷰 행사 사후 유튜브 콘텐츠",
         src: "/portfolio/project-01/preview-youtube-recap.png"
       }
     ]
@@ -133,20 +119,13 @@ export const medihealPortfolioProjects = [
       "패키지 오픈 장면, 에그백 연출, 쿠션 사용 후 피부 표현 컷 등 제품 컨셉이 잘 보이는 촬영 포인트를 콘텐츠 가이드에 반영했습니다."
     ],
     results: ["제품 컨셉이 행사, 시딩 패키지, 인플루언서 피드 콘텐츠에서 일관되게 보이도록 구성했습니다. 이를 통해 “깐달걀 피부 표현”이라는 메시지가 오프라인 프리뷰 경험과 온라인 콘텐츠에서 함께 전달될 수 있는 구조를 만들었습니다."],
-    recommendations: [
-      "에그핏 쿠션 프리뷰 행사 포스터",
-      "에그타르트 박스형 시딩 패키지",
-      "노란색 에그백 굿즈",
-      "인플루언서 피드 콘텐츠 캡처",
-      "콘텐츠 가이드 일부"
-    ],
     media: [
       {
-        caption: "에그타르트 박스형 시딩 패키지",
+        caption: "에그타르트 컨셉의 시딩 패키지",
         src: "/portfolio/project-02/eggtart-seeding-package.jpg"
       },
       {
-        caption: "인플루언서 피드 콘텐츠 캡처",
+        caption: "프리뷰 행사 연계 피드 콘텐츠 기획",
         src: "/portfolio/project-02/preview-feed-content.jpg"
       }
     ]
@@ -163,16 +142,9 @@ export const medihealPortfolioProjects = [
       "데일리패션뉴스, 아이즈매거진 등 매체별 톤앤매너에 맞춰 방문 유도형, 공간 경험형, 제품 소구형 콘텐츠로 메시지를 변주했습니다."
     ],
     results: ["아이즈매거진 협업 릴스는 조회수 7.7만 회를 기록했습니다. 팝업 현장 경험을 매체별 톤앤매너에 맞는 콘텐츠 소재로 확산해, 제품 제형과 브랜드 무드가 온라인에서도 전달될 수 있도록 만들었습니다."],
-    recommendations: [
-      "젤리팟 부산 팝업 전경",
-      "제품 체험존 이미지",
-      "데일리패션뉴스 콘텐츠 캡처",
-      "아이즈매거진 릴스 캡처",
-      "SNS 매거진 콘텐츠 가이드"
-    ],
     media: [
       {
-        caption: "아이즈매거진 릴스 캡처",
+        caption: "SNS 매거진 아이즈매거진 팝업 현장 릴스 콘텐츠 기획",
         src: "/portfolio/project-04/eyesmag-popup-reels.jpg",
         href: "https://www.instagram.com/reel/DAGJNbRyNZ0/?utm_source=ig_web_button_share_sheet",
         className: "is-medium-media"
@@ -191,16 +163,9 @@ export const medihealPortfolioProjects = [
       "신규 컬러 비교, 제형 표현, DIY 키트 활용 장면이 자연스럽게 노출되도록 콘텐츠 가이드를 제작했습니다."
     ],
     results: ["제품의 제형 USP와 컬러 추가 이슈가 오가닉 콘텐츠로 이어질 수 있는 시딩 구조를 만들었습니다. 기존 시딩 대비 1.5배수의 오가닉 콘텐츠가 확산되었습니다."],
-    recommendations: [
-      "푸딩팟 컬러 추가 시딩 패키지",
-      "DIY 키트 구성품",
-      "개인화 포토카드",
-      "인플루언서 업로드 콘텐츠 캡처",
-      "팔로워 이벤트 이미지"
-    ],
     media: [
       {
-        caption: "푸딩팟 컬러 추가 시딩 패키지",
+        caption: "푸딩팟 컬러 추가 시딩 패키지 및 이벤트 기획",
         src: "/portfolio/project-06/puddingpot-seeding-event.png",
         href: "https://www.instagram.com/reel/DCl_UUKp2JN/?utm_source=ig_web_button_share_sheet",
         className: "is-portrait-media"
@@ -222,21 +187,15 @@ export const medihealPortfolioProjects = [
       "푸딩팟 컬러 조합을 “받는 사람별 선물 이유”로 전환해, 선물 대상에 맞는 컬러 선택과 구매로 이끌었습니다.",
       "같은 제품이라도 채널과 구매 목적에 따라 메시지 구조가 달라져야 한다는 점을 익혔습니다. 이 경험을 바탕으로 메디힐의 제품 효능과 피부 고민 키워드를 SNS, 블로그, 카페, 커머스 콘텐츠에 맞게 조정하겠습니다."
     ],
-    recommendations: [
-      "카카오톡 선물하기 상세페이지 일부",
-      "푸딩팟 듀오세트 상품 이미지",
-      "컬러 조합 추천 메시지 캡처",
-      "선물 추천 유튜브 콘텐츠 캡처"
-    ],
     media: [
       {
-        caption: "카카오톡 선물하기 상세페이지 일부",
+        caption: "푸딩팟 듀오 카카오톡 선물하기 상세페이지 기획",
         src: "/portfolio/project-05/kakao-gift-puddingpot-duo.png",
         href: "https://gift.kakao.com/product/10189149",
         className: "is-compact-detail"
       },
       {
-        caption: "선물 추천 유튜브 콘텐츠 캡처",
+        caption: "마이크로 유튜버 발굴 및 협업 콘텐츠 기획",
         src: "/portfolio/project-05/micro-youtuber-gift-content.png",
         href: "https://youtu.be/_cXRfD80t1s?si=aQ8mBdXpfiBat9su"
       }
@@ -256,13 +215,6 @@ export const medihealPortfolioProjects = [
     results: [
       "이 프로젝트를 통해 소비자 반응, 콘텐츠 확산 흐름, 시장 내 이슈를 빅데이터 기반으로 파악하는 역량을 쌓았습니다. 메디힐에서도 피부 고민 키워드, 제품 효능 관련 소비자 반응, 채널별 콘텐츠 반응 차이를 분석하고, 검색과 확산에 적합한 콘텐츠 방향을 도출하겠습니다.",
       "나아가 콘텐츠 성과를 다음 캠페인 기획에 반영해, 제품 USP가 소비자의 관심과 구매 고려로 이어지는 흐름을 만드는 데 기여하겠습니다."
-    ],
-    recommendations: [
-      "AI Agent 시스템 플로우",
-      "수집 채널 구조도",
-      "리포트 생성 흐름",
-      "분석 결과 예시 화면",
-      "Python 또는 SQLite 구조 캡처"
     ],
     media: []
   }

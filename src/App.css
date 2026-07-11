@@ -691,6 +691,11 @@ ul {
   margin-top: 12px;
 }
 
+.mediheal-portfolio-cover .portfolio-position-line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .portfolio-contact-block {
   display: grid;
   gap: 6px;
