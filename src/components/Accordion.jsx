@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export default function Accordion({ items }) {
-  const [openItems, setOpenItems] = useState(() => new Set([items[0]?.id]));
+export default function Accordion({ items, defaultOpenFirst = true }) {
+  const [openItems, setOpenItems] = useState(() => new Set(defaultOpenFirst ? [items[0]?.id] : []));
 
   const toggleItem = (id) => {
     setOpenItems((current) => {

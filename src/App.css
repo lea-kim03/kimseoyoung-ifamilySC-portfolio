@@ -241,6 +241,11 @@ dd {
   padding-top: 34px;
 }
 
+.mediheal-document-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 760px;
+}
+
 .document-card,
 .section-card,
 .project-card,
@@ -276,6 +281,16 @@ dd {
 
 .document-card p {
   margin: 0;
+}
+
+.mediheal-page .role {
+  color: #6f504b;
+}
+
+.mediheal-career-detail .accordion-panel p,
+.mediheal-career-detail .accordion-panel li {
+  font-size: 19px;
+  line-height: 1.86;
 }
 
 .text-button {
