@@ -687,6 +687,32 @@ ul {
   font-size: clamp(48px, 8vw, 96px);
 }
 
+.mediheal-portfolio-cover .lead {
+  margin-top: 12px;
+}
+
+.portfolio-contact-block {
+  display: grid;
+  gap: 6px;
+  margin-top: 28px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.portfolio-contact-block strong {
+  color: var(--ink);
+  font-size: 20px;
+}
+
+.project-subtitle {
+  margin: 4px 0 22px;
+  color: var(--muted);
+  font-size: 20px;
+  font-weight: 720;
+  line-height: 1.45;
+}
+
 .portfolio-fold {
   margin-top: 14px;
   border: 1px solid var(--line);
